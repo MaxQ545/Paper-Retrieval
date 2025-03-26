@@ -3,4 +3,5 @@
 arxiv_titles_abstracts.index
 titles_and_abstracts.pkl
 arxiv-metadata.jsonl
+arxiv-metadata-oai-snapshot.json
 saved_model/

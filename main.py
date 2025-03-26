@@ -98,7 +98,7 @@ def search(query, model, index, titles_and_abstracts, k=10):
 def main():
     parser = argparse.ArgumentParser(description="Semantic Search System: Train or Search")
     parser.add_argument('--mode', type=str, choices=['train', 'search'], required=True, help="Mode: 'train' or 'search'")
-    parser.add_argument('--data', type=str, default='arxiv-metadata.jsonl', help="Data file path")
+    parser.add_argument('--data', type=str, default='arxiv-metadata-oai-snapshot.json', help="Data file path")
     parser.add_argument('--model_path', type=str, default='saved_model', help="Model save path")
     parser.add_argument('--index_path', type=str, default='arxiv_titles_abstracts.index', help="Index save path")
     parser.add_argument('--query', type=str, help="Query sentence for search mode")
