@@ -1,0 +1,6 @@
+*.pyc
+.idea
+arxiv_titles_abstracts.index
+titles_and_abstracts.pkl
+arxiv-metadata.jsonl
+saved_model/

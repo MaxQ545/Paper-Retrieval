@@ -1,0 +1,44 @@
+/* src/styles/App.css */
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.paper-list {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.paper-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.paper-item h3 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.paper-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+button:hover {
+  background-color: #5a9;
+}
